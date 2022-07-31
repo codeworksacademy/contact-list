@@ -12,31 +12,31 @@ The basic design and layout for this app has been mocked out and the names of th
 ### Requirements
 
 #### Visualization
-- The add contact form can be shown or hidden when necessary
-- Contacts marked as Emergency Contact must be easily distiguished
-- A custom Google Font must be added
-- Contacts are visible when the page reloads
+X The add contact form can be shown or hidden when necessary
+X Contacts marked as Emergency Contact must be easily distiguished
+x A custom Google Font must be added
+X Contacts are visible when the page reloads
 
 #### Functionality 
-- Add Contact form clears when submitted
-- Add Contact form submission does not reload the page 
-- Contacts are stored in local storage. 
-- Contacts can be deleted
+X Add Contact form clears when submitted
+X Add Contact form submission does not reload the page 
+X Contacts are stored in local storage. 
+X Contacts can be deleted
 
 
 ### Step by Step Guide
 
 1. Add The extra input fields for `phone` and `emergency-contact` to the add Contact Form
-    - use type checkbox for Emergency Contact
-    - Don't forget the name Attribute
+  XX  - use type checkbox for Emergency Contact
+  XX  - Don't forget the name Attribute
 2. Handle the form submission
-    - Prevent the page from reloading when submitting the form
-    - Pull the form data to get a new contact and give that contact an id
-    - Add the new contact to the contacts list
-    - Reset the form
-    - Save the contacts list
-    - Draw the contacts list
+  XX  - Prevent the page from reloading when submitting the form
+   XX - Pull the form data to get a new contact and give that contact an id
+  XX  - Add the new contact to the contacts list
+  XX  - Reset the form
+  XX  - Save the contacts list
+   XX - Draw the contacts list
 3. Handle Page Refresh
-    - Load the contacts list
-    - Draw the contacts list
-4. Show and Hide Form on button clicks
+    XX  Load the contacts list
+    XX Draw the contacts list
+4. XX Show and Hide Form on button clicks
